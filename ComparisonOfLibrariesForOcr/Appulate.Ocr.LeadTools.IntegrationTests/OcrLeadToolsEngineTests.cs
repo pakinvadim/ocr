@@ -15,7 +15,7 @@ namespace Appulate.Ocr.LeadTools.IntegrationTests {
 			var effectiveDataFieldId = "aa05ca35-57dd-4eba-9c65-3db6f0b9b1aa";
 			var expirationDataFieldId = "51ca522b-45c7-47d2-8e86-23711297a5d8";
 
-			string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\acord.pdf");
+			string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\page1.bmp");
 			string templatePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B");
 
 			var s1 = new Stopwatch();
