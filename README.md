@@ -1,4 +1,4 @@
-# comparison-of-libraries-for-ocr
+Recognition of one page with one template:
 
 Accusoft .NET Framework 4.8<br/>
 first initialization: 0 seconds<br/>
