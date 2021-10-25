@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <RootNamespace>Appulate.Ocr.LeadTools.Core</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <DefineConstants>LTV22_CONFIG;LEADTOOLS_V20_OR_LATER;LEADTOOLS_V21_OR_LATER;LEADTOOLS_V22_OR_LATER</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Leadtools.Document.Sdk" Version="22.*" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0-rc.2.21480.5" />
+    <PackageReference Include="PDFTron.NET.x64" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Templates\ACORD_130_CE26891E-2133-4AA6-BC65-E4C3A1176D1A\Page0.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_CE26891E-2133-4AA6-BC65-E4C3A1176D1A\Page0.tif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_CE26891E-2133-4AA6-BC65-E4C3A1176D1A\Page0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_CE26891E-2133-4AA6-BC65-E4C3A1176D1A\Page0_Tables.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page0.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page0.tif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page0_Tables.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page1.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page1.tif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page1_Tables.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page2.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page2.tif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page2_Tables.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page3.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page3.tif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Sub Pages\Page3_Tables.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

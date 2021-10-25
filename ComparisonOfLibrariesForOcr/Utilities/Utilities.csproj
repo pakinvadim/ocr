@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Platforms>AnyCPU;x64</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Update="Pdf\AbcPdfWrapper.cs">
+        <Generator>MSBuild:GenerateCodeFromAttributes</Generator>
+      </Compile>
+      <Compile Update="Pdf\PdfDocTextExtensions.cs">
+        <Generator>MSBuild:GenerateCodeFromAttributes</Generator>
+      </Compile>
+      <Compile Update="Pdf\PdfDocument.cs">
+        <Generator>MSBuild:GenerateCodeFromAttributes</Generator>
+      </Compile>
+      <Compile Update="Pdf\TemplateBasedPdfDocument.cs">
+        <Generator>MSBuild:GenerateCodeFromAttributes</Generator>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ABCpdfStandard" Version="11.3.7" />
+      <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Resources\Acord130.pdf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_1.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_2.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_3.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_4.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\acord.pdf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\page1.bmp">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\page2.bmp">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\page3.bmp">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_3698_LB_d8968da4-a7cf-4343-9403-39ed4e526c3b\page4.bmp">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

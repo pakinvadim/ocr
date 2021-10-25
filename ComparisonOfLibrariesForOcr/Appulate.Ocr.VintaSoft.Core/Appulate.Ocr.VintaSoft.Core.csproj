@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <Platforms>AnyCPU;x64</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Utilities\Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Templates" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Templates\form-ocr-full.fdt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\form-ocr-full.fdt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_01.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_02.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_03.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_04.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\form-ocr-one-page.fdt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="tessdata\eng.traineddata">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Tesseract4.Vintasoft.x64.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Tesseract4.Vintasoft.x86.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0-rc.2.21480.5" />
+      <PackageReference Include="Vintasoft.Imaging" Version="10.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="5.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.FormsProcessing" Version="3.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.FormsProcessing.Ocr" Version="3.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.Ocr" Version="5.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="5.1.9.1" />
+      <PackageReference Include="Vintasoft.Imaging.Pdf" Version="7.1.9.1" />
+    </ItemGroup>
+
+</Project>

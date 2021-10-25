@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{210B3791-EE9C-4335-ADF8-6CA1EA977826}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Appulate.Ocr.Accusoft</RootNamespace>
+        <AssemblyName>Appulate.Ocr.Accusoft</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>x64</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>x64</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Accusoft.FormDirector3.Net, Version=3.0.0.31, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.FormDirector3.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.FormFix5.Net, Version=5.0.0.32, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.FormFix5.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.ImagXpress11.Net, Version=11.0.0.98, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.ImagXpress11.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.NotateXpress11.Net, Version=11.0.0.47, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.NotateXpress11.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.PrintPro6.Net, Version=6.0.0.31, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.PrintPro6.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.ScanFixXpress7.Net, Version=7.0.1.1, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.ScanFixXpress7.NET.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.SmartZoneICR4.Net, Version=4.0.0.26, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.SmartZoneICR4.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Accusoft.SmartZoneOCR4.Net, Version=4.0.0.26, Culture=neutral, PublicKeyToken=80d669b8b606a2da">
+          <HintPath>..\packages\SmartZone.4.0.0\lib\Accusoft.SmartZoneOCR4.Net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Runtime.Serialization" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="AccusoftEngine.cs" />
+        <Compile Include="Forms\FieldTypes.cs" />
+        <Compile Include="Forms\FormConst.cs" />
+        <Compile Include="Forms\FormHeadSet.cs" />
+        <Compile Include="Forms\FormHeadSetDescription.cs" />
+        <Compile Include="Forms\FormSet.cs" />
+        <Compile Include="Forms\IFormHeadSet.cs" />
+        <Compile Include="Forms\IFormSet.cs" />
+        <Compile Include="Forms\IOcrTemplateField.cs" />
+        <Compile Include="Forms\MemoryFormSet.cs" />
+        <Compile Include="Forms\OcrClearArea.cs" />
+        <Compile Include="Forms\OcrField.cs" />
+        <Compile Include="Forms\OcrForm.cs" />
+        <Compile Include="Forms\OcrFormModel.cs" />
+        <Compile Include="Forms\OcrFormSet.cs" />
+        <Compile Include="Forms\OcrTemplateField.cs" />
+        <Compile Include="Forms\OmrField.cs" />
+        <Compile Include="CommonHashCodeFunctions.cs" />
+        <Compile Include="Identification\FormIdentificationProcessor.cs" />
+        <Compile Include="Identification\FormIdentificationResult.cs" />
+        <Compile Include="Identification\OcrAcordType.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Recognition\FieldFactory.cs" />
+        <Compile Include="Recognition\FieldResult.cs" />
+        <Compile Include="Recognition\OcrDocumentCollection.cs" />
+        <Compile Include="Recognition\OcrField.cs" />
+        <Compile Include="Recognition\OcrResult.cs" />
+        <Compile Include="Recognition\OcrZoneDocument.cs" />
+        <Compile Include="Recognition\OcrZoneField.cs" />
+        <Compile Include="Recognition\OcrZonePage.cs" />
+        <Compile Include="Recognition\OcrZoneRecognizeErrorArgs.cs" />
+        <Compile Include="Recognition\OmrField.cs" />
+        <Compile Include="Recognition\OmrResult.cs" />
+        <Compile Include="Workspace.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\form-ocr.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_01.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_02.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_03.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Templates\ACORD_130_D8968DA4-A7CF-4343-9403-39ED4E526C3B\Page_04.tif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Utilities\Utilities.csproj">
+        <Project>{b3aec584-58bb-4b39-8f8b-8fc09ae9ebff}</Project>
+        <Name>Utilities</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

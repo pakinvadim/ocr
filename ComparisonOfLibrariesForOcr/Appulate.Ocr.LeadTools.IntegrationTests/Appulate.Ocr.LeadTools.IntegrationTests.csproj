@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="Resources\Acord130.pdf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_1.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_2.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_3.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Acord130_Page_4.tiff">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Appulate.Ocr.LeadTools.Core\Appulate.Ocr.LeadTools.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="6.1.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+      <PackageReference Include="NUnit" Version="3.13.2" />
+      <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    </ItemGroup>
+
+</Project>

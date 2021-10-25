@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<leadtools_form_processing_fields>
+   <pages>
+      <page number="1" dpix="300" dpiy="300">
+         <fillColor red="255" green="255" blue="255" />
+         <colors isData="False" />
+         <fields>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="0d54255a-1c6e-4a76-ae88-d8c509c79e5c" />
+                  <value bounds="149, 346, 2318, 401" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="3d43d7a9-b108-4045-ae93-02b2f03ea684" />
+                  <value bounds="149, 442, 2316, 495" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="4a3827b8-35f3-4212-9df8-5e6d0273fd48" />
+                  <value bounds="149, 537, 2318, 590" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="0fdced54-32fd-4d32-a495-4655483a7c18" />
+                  <value bounds="1304, 782, 2268, 818" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="88024697-3d22-466c-b994-06ad1f8be835" />
+                  <value bounds="150, 725, 2318, 778" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="d91fc97e-a2dc-49b3-9f31-b52113f99200" />
+                  <value bounds="149, 631, 2318, 683" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="e3746ebd-390a-476e-baa1-c77f999f580f" />
+                  <value bounds="2323, 313, 2434, 401" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="34f349e8-024b-4df6-8482-ab71bec1c098" />
+                  <value bounds="2323, 404, 2434, 494" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="5c3b82fe-bf53-4206-ae45-00abd54502bd" />
+                  <value bounds="2323, 499, 2434, 589" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="845c5f23-fdff-4743-8c84-24d1b9cf69d3" />
+                  <value bounds="2323, 593, 2434, 681" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="cc1ce4f9-dbb7-4573-8c7d-6fa2f154e276" />
+                  <value bounds="2324, 688, 2434, 777" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="9e127a36-2f53-478e-89dc-6dc499fea57b" />
+                  <value bounds="2324, 782, 2434, 871" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="f3dfd57c-8279-4c8f-9bab-a6c90b00a2bc" />
+                  <value bounds="2325, 876, 2434, 963" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="e0fb6f1d-cd40-48b9-8566-ecd88eace838" />
+                  <value bounds="2324, 971, 2434, 1080" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="359480df-459b-4e29-856d-d87e576bb5ce" />
+                  <value bounds="149, 912, 2318, 967" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="a3c49003-3ced-47f9-a2ce-fb99e3322fd3" />
+                  <value bounds="149, 1040, 2318, 1081" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="aaf5196f-c5ad-4d8b-9974-9a6eca307b1a" />
+                  <value bounds="150, 821, 2316, 872" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="30b35e3e-cf64-48b5-b719-5a89bb4b320e" />
+                  <value bounds="2324, 593, 2434, 681" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="4c236c3e-a673-439e-b8a8-5d66b32a8ce9" />
+                  <value bounds="149, 631, 2318, 684" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="290b60a8-43f2-490d-acd8-7d567e67e85d" />
+                  <value bounds="2012, 3004, 2402, 3058" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="f297b553-d094-43f0-9fb4-34fe39ae3ef2" />
+                  <value bounds="2204, 1475, 2390, 1511" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+            <field type="Leadtools.Forms.Processing.TextFormField, Leadtools.Forms.Processing, Version=22.0.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+               <values>
+                  <value name="0a08ec50-c804-496f-a2e0-a01e8737b407" />
+                  <value bounds="153, 1139, 196, 1172" />
+                  <value dropOut="None" />
+                  <value regex_pattern="" />
+                  <value ocr_text_type="FlowText" />
+                  <value enable_icr="False" />
+                  <value enable_ocr="True" />
+                  <value text_field_type="Character" />
+               </values>
+            </field>
+         </fields>
+      </page>
+   </pages>
+</leadtools_form_processing_fields>
