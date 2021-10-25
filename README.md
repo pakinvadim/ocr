@@ -1,6 +1,7 @@
 Recognition of one page with one template:
 
 Accusoft .NET Framework 4.8<br/>
+template with 4 pages:<br/>
 first initialization: 0 seconds<br/>
 identification and recognition: 2 seconds<br/>
 <br/>
