@@ -10,11 +10,11 @@ identification and recognition: 2 seconds<br/>
 LeadTools .NET 5<br/>
 template with 4 pages:<br/>
 first initialization: 48 seconds<br/>
-identification and recognition: 23 seconds<br/>
+identification and recognition: 11 seconds<br/>
 <br/>
 template with 1 pages:<br/>
 first initialization: 10 seconds<br/>
-identification and recognition: 23 seconds<br/>
+identification and recognition: 10 seconds<br/>
 <br/>
 **
 <br/>
